@@ -35,14 +35,11 @@ data_activity_report/
 
 ---
 
-###使い方
-
-1️⃣ 依存ライブラリのインストール
+##使い方1️⃣ 依存ライブラリのインストール
 ```bash
 pip install pandas numpy openpyxl
 
 2️⃣ スクリプト実行
-bash
 コードをコピーする
 python data_activity_report.py
 
