@@ -57,9 +57,12 @@ output/device_summary.csv
 
 ログ: output/logs/data_activity_report.log
 
+```
+
 設定ファイル（任意）
 同じフォルダに 以下形式のconfig.json を置くと、設定を上書きできます。
 
+```
 {
   "lookback_days": 30,
   "always_on_threshold": 0.95,
@@ -69,8 +72,10 @@ output/device_summary.csv
   "device_summary_csv": "output/device_summary.csv",
   "log_path": "output/logs/data_activity_report.log"
 }
+```
 
 出力項目の説明
+```
 カラム名	意味
 device_id	デバイスID
 store_id	店舗ID
@@ -81,10 +86,10 @@ max_consecutive_stops	最大連続停止日数
 is_always_on	常時稼働フラグ（稼働率が閾値以上）
 first_seen_date	初回観測日
 last_seen_date	最終観測日
+```
 
 使用技術
 Python 3.x
-
 pandas / numpy / openpyxl
 
 ライセンス
