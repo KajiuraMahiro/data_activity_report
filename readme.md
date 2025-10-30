@@ -22,21 +22,24 @@
 
 ##ディレクトリ構成例
 
+```
 data_activity_report/
 ├─ data_activity_report.py
 ├─ README.md
 ├─ input/
-│ └─ transaction_log.csv # ダミーデータ
+│  └─ transaction_log.csv  # ダミーデータ
 └─ output/
-├─ activity_report.xlsx
-├─ device_daily.csv
-├─ device_summary.csv
-└─ logs/
+   ├─ activity_report.xlsx
+   ├─ device_daily.csv
+   ├─ device_summary.csv
+   └─ logs/
+```
 
 ---
 
-##使い方1️⃣ 依存ライブラリのインストール
+##使い方
 ```bash
+1️⃣ 依存ライブラリのインストール
 pip install pandas numpy openpyxl
 
 2️⃣ スクリプト実行
