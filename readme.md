@@ -35,9 +35,9 @@ data_activity_report/
 
 ---
 
-##使い方
+###使い方
 
-### 1️⃣ 依存ライブラリのインストール
+1️⃣ 依存ライブラリのインストール
 ```bash
 pip install pandas numpy openpyxl
 
