@@ -23,9 +23,11 @@
 ##ディレクトリ構成例
 
 ```
+
 data_activity_report/
 ├─ data_activity_report.py
 ├─ README.md
+├─ config.json　#任意
 ├─ input/
 │  └─ transaction_log.csv  # ダミーデータ
 └─ output/
@@ -33,6 +35,7 @@ data_activity_report/
    ├─ device_daily.csv
    ├─ device_summary.csv
    └─ logs/
+
 ```
 
 ---
